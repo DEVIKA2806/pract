@@ -3,3 +3,5 @@ https://sites.google.com/view/farheenshaikh/cf?authuser=0
 https://limewire.com/d/tGJLb#3LGm595j5M
 
 https://kb.firedaemon.com/support/solutions/articles/4000121705#Download-OpenSSL
+
+openssl req -x509 -out localhost.crt -keyout localhost.key -newkey rsa:2048 -nodes -sha256 -subj /CN=localhost
